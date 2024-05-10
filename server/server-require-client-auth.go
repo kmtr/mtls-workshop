@@ -42,7 +42,7 @@ func main() {
 
 	// HTTPSサーバーを設定
 	server := &http.Server{
-		Addr:      ":9443",
+		Addr:      "localhost:9443",
 		TLSConfig: tlsConfig,
 	}
 
